@@ -7,3 +7,6 @@ git add file_name                       #for adding particular file
 git log                                 #will show which changes has been commited
 git commit -m "type_message"            # will add changes to repo
 git status                              #will check the status of changes
+git restore --staged file_name          #to remove changes back from staging
+git --online --decorate --graph --all   # it will show all commits in presentable manner
+
