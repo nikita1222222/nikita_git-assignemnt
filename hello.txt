@@ -1,1 +1,9 @@
 3rd commit has been added
+
+git commands:
+
+git add .                               # adding all file
+git add file_name                       #for adding particular file
+git log                                 #will show which changes has been commited
+git commit -m "type_message"            # will add changes to repo
+git status                              #will check the status of changes
