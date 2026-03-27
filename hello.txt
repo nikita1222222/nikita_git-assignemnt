@@ -9,4 +9,7 @@ git commit -m "type_message"            # will add changes to repo
 git status                              #will check the status of changes
 git restore --staged file_name          #to remove changes back from staging
 git --online --decorate --graph --all   # it will show all commits in presentable manner
+git diff                                #to check the differerence
+git reset --hard commit_number          #this will delete changes and will do unstaged
+
 
