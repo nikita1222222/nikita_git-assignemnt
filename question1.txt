@@ -1,7 +1,21 @@
 #. Create a new GitHub repository.
+nikita_git-assignment github repo created 
+
 #Clone the repository to your local machine using SSH (generate an SSH key if needed, add the public key to your GitHub account).
+new_key.txt is the to generate the SSH Key 
+
 #Create a new branch named after your username (e.g., Tutedude).
+git branch nikita_branch1
+
+nikita_branch1 already created
+
 #Add your Flask project files to this branch.
+cd /home/nikita/git/git_tutial/framework_and_mongodb
+git add app.py
+cd /home/nikita/git/git_tutial/framework_and_mongodb/templates
+git add index.html
+git commit -m "flask project files added"
+flask project files already added
 #Commit the changes and merge the branch into the main branch.
 
 
